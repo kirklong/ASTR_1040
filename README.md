@@ -1,8 +1,10 @@
-# Multiculturalism at the Observatory SBO Imaging Workshop
+# ASTR 1040 Cloudy Night Activity
 
-This folder contains some sample SBO observation FITS files that you can use to put together a pretty picture of the Ring Nebula! The script [ImagingWorkshop.jl](ImagingWorkshop.jl) will do everything automatically, and you can run it right away as long as you have Julia installed. it should also work for any set of FITS files so long as they follow the same naming conventions (i.e. the bias frames have BIAS in them, the HDUs indicate the r,g,b filters, etc.). The notebook [ImagingWorkshop.ipynb](ImagingWorkshop.ipynb) is a more guided approach that illustrates what the script is doing behind the scenes and walks you through step by step on how to reduce data from a telescope and produce a pretty, science ready image. It's also better commented than the script is.
+This folder contains some sample SBO observation FITS files that you can use to put together a pretty picture of the Ring Nebula! The notebook [Imaging1040.ipynb](Imaging1040.ipynb) is your "assignment" and is a guided approach that walks you through step by step on how to reduce data from a telescope and produce a pretty, science ready image. You won't have to actually code anything, but simply run the cells and answer some questions at the bottom, but if you're curious and interested feel free to play with it! The notebook code is relatively well commented so you should (hopefully) be able to understand what's going on even if you've never programmed before. The script [ImagingWorkshop.jl](ImagingWorkshop.jl) will do everything automatically to produce a pretty picture, and you can run it right away as long as you have Julia installed. it should also work for any set of FITS files so long as they follow the same naming conventions (i.e. the bias frames have BIAS in them, the HDUs indicate the r,g,b filters, etc.).
 
 ## Prerequisites:
+
+### Note: We will walk through doing all of this in class.
 
 **Julia** (version > 1.6) &mdash; you can find installation instructions for your operating system [here](https://julialang.org/downloads/).
 
