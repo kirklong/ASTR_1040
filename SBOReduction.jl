@@ -309,6 +309,8 @@ function main(shift=false)
             rgbCube[rgbCube.<0.0] .= 0.0; rgbCube[rgbCube.>1.0] .= 1.0
             rgbCube = reshape(rgbCube,shape)
             save("RGB_Final_sat_$sat.png",colorview(RGB,rgbCube)) #save the picture
+            println("Goodbye!")
+            sleep(3)
         end
     else
         println("Could not detect r,g,b channels -- making a B&W image.")
