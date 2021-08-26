@@ -2,6 +2,8 @@
 
 This folder contains some sample SBO observation FITS files that you can use to put together a pretty picture of the Ring Nebula! The notebook [Imaging1040.ipynb](Imaging1040.ipynb) is your "assignment" and is a guided approach that walks you through step by step on how to reduce data from a telescope and produce a pretty, science ready image. You won't have to actually code anything, but simply run the cells and answer some questions at the bottom, but if you're curious and interested feel free to play with it! The notebook code is relatively well commented so you should (hopefully) be able to understand what's going on even if you've never programmed before. The script [ImagingWorkshop.jl](ImagingWorkshop.jl) will do everything automatically to produce a pretty picture, and you can run it right away as long as you have Julia installed. it should also work for any set of FITS files so long as they follow the same naming conventions (i.e. the bias frames have BIAS in them, the HDUs indicate the r,g,b filters, etc.).
 
+**Important**: You have to download the whole repository with all the FITS files for this to work right! You can do that with the big green button in the upper right.
+
 ## Prerequisites:
 
 ### Note: We will walk through doing all of this in class.
