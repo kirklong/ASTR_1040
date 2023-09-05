@@ -6,7 +6,7 @@ This folder contains some sample SBO observation FITS files that you can use to 
 
 ## Prerequisites:
 
-### Note: We will walk through doing all of this in class.
+### Note: We will walk through doing this at the observatory if it is cloudy
 
 **Julia** (version > 1.6) &mdash; you can find installation instructions for your operating system [here](https://julialang.org/downloads/).
 
